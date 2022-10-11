@@ -5,6 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* background-color: rgb(79, 78, 78);
+  overflow-x: hidden;
+  height: auto; */
+
+  width: 100%;
+  overflow-x: hidden;
+}
+.bg-wrapper{
+  background-image: url("/src/assets/wallpaper.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 2500px; */
+  
+
+  background-attachment: fixed;
 }
 
 code {
